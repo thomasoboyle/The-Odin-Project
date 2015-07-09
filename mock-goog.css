@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+}
+
+body div {
+	height: 325px;
+}
+
+form {
+	text-align: center;
+	width: 200px;
+	font-size: 14px;
+}

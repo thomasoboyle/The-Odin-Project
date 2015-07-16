@@ -1,3 +1,33 @@
+body {
+	font-size: small;
+	font-family: arial, sans-serif;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: gray;
+}
+
+
+#container {
+	margin: 10 0 0 0 auto;
+	text-align: center;
+}
+
+#nav {
+	margin: 25px 40px 0 0;
+}
+
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
@@ -5,10 +35,10 @@
 	font-size: 14px;
 }
 
-.image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#logo {
+	width: 55em;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .text {
@@ -18,4 +48,5 @@
 .search {
 	width: 100%;
 }
+
 

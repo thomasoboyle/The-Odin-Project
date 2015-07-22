@@ -1,10 +1,7 @@
-/* Comments */
+/************************************
+Nav
+************************************/
 
-body {
-	font-size: small;
-	font-family: arial, sans-serif;
-
-}
 
 a {
 	text-decoration: none;
@@ -21,25 +18,56 @@ a:visited {
 
 
 #container {
-	margin: 10 0 0 0 auto;
+	margin: 0 auto;
 	text-align: center;
 }
 
-#nav {
+#header {
 	margin: 25px 10px 0 0;
 }
 
+#navigation {
+	float: right;
+}
 
-.center {
+ul.nav {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 20px;
+	opacity: 1;
+}
+
+#grid-icon {
+	width: 1em;
+}
+
+#notif-icon {
+	width: 2em;
+}
+
+
+/*******************************************
+Form
+*******************************************/
+
+
+.form {
 	margin-left: auto;
 	margin-right: auto;
 	width: 300px;
 	font-size: 14px;
 }
+/*******************************************
+Logo
+*******************************************/
 
 #logo {
 	width: 55em;
-	text-align: center;
 	margin: 0 auto;
 }
 

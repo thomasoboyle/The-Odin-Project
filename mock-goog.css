@@ -16,7 +16,6 @@ a:visited {
 	color: gray;
 }
 
-
 #container {
 	margin: 0 auto;
 	text-align: center;
@@ -26,10 +25,6 @@ a:visited {
 	margin: 25px 10px 0 0;
 }
 
-#navigation {
-	float: right;
-}
-
 ul.nav {
 	list-style: none;
 	font-family: sans-serif;
@@ -37,7 +32,7 @@ ul.nav {
 }
 
 ul.nav li {
-	float: left;
+	float: right;
 	margin-right: 20px;
 	opacity: 1;
 }
@@ -51,24 +46,23 @@ ul.nav li {
 }
 
 
-/*******************************************
-Form
-*******************************************/
 
-
-.form {
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
-	font-size: 14px;
-}
 /*******************************************
 Logo
 *******************************************/
 
+/*
+.center {
+	display: block;
+	text-align: center;
+}
+*/
+
+
 #logo {
-	width: 55em;
-	margin: 0 auto;
+	height: auto;
+	width: auto;
+	max-width: 500px;
 }
 
 .text {
@@ -79,4 +73,17 @@ Logo
 	width: 100%;
 }
 
+
+
+
+/*******************************************
+Form
+*******************************************/
+
+.form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	font-size: 14px;
+}
 

@@ -53,6 +53,8 @@ Logo
 
 
 #logo {
+	text-align: center;
+	display: inline-block;
 	height: auto;
 	width: auto;
 	max-width: 500px;
@@ -80,3 +82,20 @@ Form
 	font-size: 14px;
 }
 
+
+
+/*******************************************
+Footer
+*******************************************/
+
+ul.foot {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+ul.foot li {
+	float: right;
+	margin-right: 20px;
+	opacity: 1;
+}

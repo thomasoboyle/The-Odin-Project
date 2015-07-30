@@ -88,14 +88,26 @@ Form
 Footer
 *******************************************/
 
-ul.foot {
+ul.right {
 	list-style: none;
 	font-family: sans-serif;
 	font-size: 14px;
 }
 
-ul.foot li {
+ul.right li {
 	float: right;
 	margin-right: 20px;
+	opacity: 1;
+}
+
+ul.left {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+ul.left li {
+	float: left;
+	margin-left: 20px;
 	opacity: 1;
 }

@@ -16,12 +16,7 @@ a:visited {
 	color: gray;
 }
 
-#container {
-	margin: 0 auto;
-	text-align: center;
-}
-
-#header {
+header {
 	margin: 25px 10px 0 0;
 }
 
@@ -51,12 +46,19 @@ ul.nav li {
 Logo
 *******************************************/
 
+
 #logo {
 	display: block;
 	margin: 0 auto;
 	height: auto;
 	width: auto;
 	max-width: 500px;
+}
+
+#pic {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .text {
@@ -67,6 +69,12 @@ Logo
 	width: 100%;
 }
 
+
+#wrapper {
+	max-width: 1px;
+	margin: 0 auto;
+	background: orange;
+}
 
 
 

@@ -56,6 +56,7 @@ Logo
 }
 
 #pic {
+	clear: both;
 	display: block;
 	width: 1000px;
 	margin: 0 auto;
@@ -83,8 +84,8 @@ Form
 *******************************************/
 
 .form {
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	margin: 0 auto;
 	width: 300px;
 	font-size: 14px;
 }

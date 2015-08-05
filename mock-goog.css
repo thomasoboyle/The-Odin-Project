@@ -51,10 +51,9 @@ ul.nav li {
 Logo
 *******************************************/
 
-
 #logo {
-	text-align: center;
-	display: inline-block;
+	display: block;
+	margin: 0 auto;
 	height: auto;
 	width: auto;
 	max-width: 500px;

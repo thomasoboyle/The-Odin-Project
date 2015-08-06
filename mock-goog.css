@@ -1,7 +1,14 @@
 /************************************
 Nav
 ************************************/
-
+header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 30px;
+	width: 100%;
+	background: #D3D3D3;
+}
 
 a {
 	text-decoration: none;
@@ -48,6 +55,7 @@ Logo
 
 
 #logo {
+	padding-top: 100px;
 	display: block;
 	margin: 0 auto;
 	height: auto;
@@ -71,23 +79,13 @@ Logo
 	width: 100%;
 }
 
-/*
-
-#wrapper {
-	max-width: 1px;
-	margin: 0 auto;
-	background: orange;
-}
-
-*/
-
-
 
 /*******************************************
 Form
 *******************************************/
 
 .form {
+	padding-top: 50px;
 	text-align: center;
 	margin: 0 auto;
 	width: 300px;
@@ -99,6 +97,15 @@ Form
 /*******************************************
 Footer
 *******************************************/
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background: #D3D3D3;
+}
 
 ul.right {
 	list-style: none;
@@ -122,4 +129,8 @@ ul.left li {
 	float: left;
 	margin-left: 20px;
 	opacity: 1;
+}
+
+li {
+	padding-bottom: 5px;
 }

@@ -1,6 +1,6 @@
 # The-Odin-Project
 
-The Google Home Page
+The Google Home Page Mock
 from: http://www.theodinproject.com/web-development-101/html-css
 
 
